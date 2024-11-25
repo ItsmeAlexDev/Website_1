@@ -1,0 +1,83 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	background-color: rgba(30,30,30,255);
+	color: #aaa;
+    margin: 0;
+}
+
+header {
+	font-family: 'Open Sans', sans-serif;
+    background-color: #333;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header > h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	padding-left: 25px;
+	padding-bottom: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+	padding-left: 45%;
+}
+.navbar ul li {
+	font-family: 'Open Sans', sans-serif;
+    display: inline;
+    margin-right: 20px;
+}
+.navbar ul li a {
+	font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s ease-in;
+    transition: all .25s ease-out;
+}
+.navbar ul li a:hover {
+    color: #88f;
+    font-weight: bold;
+}
+
+.hover-effect {
+	cursor: default;
+}
+
+.letter {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+    transition: all .5s ease-in;
+    transition: all .25s ease-out;
+	cursor: default;
+}
+  
+.hover-effect .letter:hover {
+	cursor: default;
+	color: #ff6347;
+}
+
+#mouse {
+	height: 12px;
+	width: 12px;
+	background-color: #6a7f23;
+	border-radius: 50%;
+	
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 10000;
+	
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 500ms ease;
+}
+
+body:hover > #mouse {
+	opacity: 1;
+}

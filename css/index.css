@@ -1,0 +1,48 @@
+body {
+    padding-bottom: 10%;
+}
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: #444;
+    width: 60%;
+    margin: 20%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    border-radius: 25px;
+    cursor: default;
+}
+
+.content > p {
+    text-align: justify;
+    margin-left: 55px;
+    margin-right: 55px;
+    padding-bottom: 55px;
+    padding-top: 55px;
+    cursor: default;
+}
+
+.navbar  ul  li:nth-child(1) a {
+    color: #88f;
+    font-weight: bold;
+}
+
+#first {
+    padding-bottom: 0px;
+}
+
+#second{
+    padding-top: 0px;
+}
+
+.image {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    background-color: #444;
+    width: 90%;    
+    margin: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+    cursor: default;
+}
